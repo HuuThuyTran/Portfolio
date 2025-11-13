@@ -63,9 +63,6 @@ cd Portfolio
 3. **Mở file index.html**
 - Mở trực tiếp file `index.html` bằng trình duyệt
 
-```bash
-```
-
 ## 📁 Cấu trúc dự án
 
 ```
