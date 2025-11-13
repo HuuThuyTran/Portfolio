@@ -1,4 +1,4 @@
-# 🌟 Portfolio - Trần Hữu Thụy
+# 🌟 Portfolio - Trần Hữu Thủy
 
 Portfolio cá nhân giới thiệu về bản thân, kỹ năng, dự án và thông tin liên hệ của mình.
 
