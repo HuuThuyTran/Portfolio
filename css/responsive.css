@@ -1,0 +1,136 @@
+/* ===== Media Queries ===== */
+
+/* ===== Desktop Styles ===== */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1028px;
+  }
+}
+
+/* =====  Small Laptop Styles ===== */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  /* Header */
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__column--left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__content--left {
+    align-items: center;
+
+    & p {
+      max-width: 360px;
+      text-align: center;
+    }
+  }
+
+  .header__column--right {
+    align-items: center;
+    text-align: center;
+  }
+
+  /* About-me */
+  .aboutMe__section {
+    margin: 100px auto;
+
+    & img {
+      width: 250px;
+    }
+  }
+}
+
+/* ===== Small Tablet Styles - landscape mode ===== */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+
+  /* About-me */
+  .aboutMe__section {
+    margin: 80px auto;
+
+    & img {
+      display: none;
+    }
+  }
+
+  /* Skills */
+  .skills__grid_container {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-template-rows: repeat(4, minmax(280px, auto));
+
+    & .skills__grid_item {
+      padding: 1rem;
+      grid-column: span 1 !important;
+      grid-row: span 1 !important;
+    }
+  }
+
+  /* Projects */
+  .projects__cards {
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+/* ===== Phone Styles ===== */
+@media (max-width: 640px) {
+  :root {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .container {
+    max-width: 475px;
+    padding: 0 1rem;
+  }
+
+  .section__title {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .header__badge_container {
+    flex-direction: column;
+  }
+
+  /* About-me */
+  .aboutMe__container {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .aboutMe__content_container {
+    border-radius: 2rem;
+  }
+
+  /* Skilss */
+  .skills__grid_item_header {
+    & h2 {
+      font-size: 20px;
+    }
+  }
+
+  /* Footer */
+  .footer__links {
+    & ul {
+      display: flex;
+      gap: 15px;
+    }
+  }
+}
